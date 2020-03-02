@@ -14,9 +14,9 @@
   <project path="external/sqlite" name="external_sqlite" remote="evo" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="evo" />
-  <project path="frameworks/base" name="frameworks_base" remote="evo" />
-  <project path="frameworks/native" name="frameworks_native" remote="evo" />
+  <project path="frameworks/av" name="frameworks_av" remote="evo" revision="ten-pixel" />
+  <project path="frameworks/base" name="frameworks_base" remote="evo" revision="ten-pixel" />
+  <project path="frameworks/native" name="frameworks_native" remote="evo" revision="ten-pixel" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="evo" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="evo" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="evo" />
@@ -36,7 +36,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="evo" />
-  <project path="manifest" name="manifest" remote="evo" />
+  <project path="manifest" name="manifest" remote="evo" revision="ten-pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="evo" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="evo" />
 
